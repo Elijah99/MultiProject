@@ -1,2 +1,0 @@
-com/epam/task/second/App.java
- com.epam.task.second.App

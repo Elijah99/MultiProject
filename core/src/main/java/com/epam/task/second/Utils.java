@@ -5,9 +5,8 @@ import java.util.stream.Stream;
 
 public class Utils {
 
-    public boolean isAllPositiveNumbers(String... str) {
-        StringUtils utils = new StringUtils();
-        return Stream.of(str).allMatch(number -> utils.isPositiveNumber(number));
+    public static boolean isAllPositiveNumbers(String... str) {
+        return Stream.of(str).allMatch(number -> StringUtils.isPositiveNumber(number));
     }
 
 }
